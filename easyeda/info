@@ -1,0 +1,84 @@
+{
+  "uuid": "114dc81fee72f4f40b63b17d96f4412f",
+  "path": "Offline/4120R-601-250_201L",
+  "name": "4120R-601-250_201L",
+  "content": "",
+  "created_at": "2022-03-22 22:28:20",
+  "updated_at": "2022-03-28 23:54:23",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "caa27eb06e6dc23b9c7c759c7aa24db6",
+      "title": "4120R-601-250_201L",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "200pF",
+          8,
+          "C0603",
+          "C1,C2,C3,C4,C5,C6,C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "0603CG201J500NT",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": ""
+          }
+        ],
+        [
+          "25Ω",
+          16,
+          "R0402",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "0402WGF255JTCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": ""
+          }
+        ]
+      ],
+      "updateTime": 1648525343,
+      "createTime": 1648002662,
+      "histories": [],
+      "created_at": "2022-03-22 22:31:02",
+      "updated_at": "2022-03-28 23:42:23"
+    },
+    {
+      "uuid": "61aca2bc5e5216b24b57d500cefc7e0c",
+      "puuid": "114dc81fee72f4f40b63b17d96f4412f",
+      "title": "4120R-601-250_201L_pcb",
+      "filename": "4120R-601-250_201L_pcb.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d91d5e0f00274e1eb5957b24ba2c6231": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 8,
+        "fafd024f554e426eb74cf4a204aa88b0": 16
+      },
+      "BOM": [],
+      "updateTime": 1648526063,
+      "createTime": 1648002647,
+      "histories": [],
+      "created_at": "2022-03-22 22:30:47",
+      "updated_at": "2022-03-28 23:54:23"
+    }
+  ],
+  "sort": [],
+  "title": "4120R-601-250_201L",
+  "foldername": "4120R-601-250_201L",
+  "schfilename": "4120R-601-250_201L.json",
+  "schfilemtime": 1648525343245
+}
