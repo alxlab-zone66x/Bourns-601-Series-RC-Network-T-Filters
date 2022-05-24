@@ -41,11 +41,19 @@ If the part number your looking for isn't listed, please refer to the [datasheet
 
 4120R-601-250/201
 
-| Quantity | Description                   | Designators | Product Number | Datasheet |
-| :------- | ----------------------------- | ----------- | -------------- | --------- |
-| 16       | 25 Ohm resistor - 0402        | R1-R16      |                |           |
-| 8        | 200 pF capacitor - 0603       | C1-C8       |                |           |
-| 2        | 10-pin male header 0.1" pitch |             |                |           |
+| Quantity | Description                                              | Designators | Product Number  | Datasheet                                                    |
+| :------- | -------------------------------------------------------- | ----------- | --------------- | ------------------------------------------------------------ |
+| 16       | 25 Ohm resistor - 0402 (original 25V, ±10%)              | R1-R16      | 0402WGF255JTCE  | [datasheet](docs/datasheets/R1-R16_2110260430_UNI-ROYAL-Uniroyal-Elec-0402WGF255JTCE_C129579.pdf) |
+| 8        | 200 pF capacitor - 0603 (original Z5U, ±30% capacitance) | C1-C8       | 0603CG201J500NT | [datasheet](docs/datasheets/C1-C8_1811061810_FH-Guangdong-Fenghua-Advanced-Tech-0603B201K500NT_C1600.pdf) |
+| 2        | 10-pin male header 0.1" (2.54mm) pitch                   |             |                 |                                                              |
+
+
+
+## Manufacturing
+
+The release includes the manufacturing files for JLCPCB specifically. If you need to the gerber files, BOM or component pick & place in a different format then you would have to generate them yourself.
+
+I recommend a PCB thickness of 1mm or less if you do panelization to make the PCBs easier to separate.
 
 
 
@@ -74,7 +82,6 @@ For more great retro hardware projects and a great community check out:
 Join us in #skunkworks on [Discord](https://discord.gg/GKcvtgU7P9) to help make retro solutions available to all.
 
 [<img src="docs/discordbanner.png" alt="Discord Open Retro SCSI skunkworks" style="float: left;" />](https://discord.gg/GKcvtgU7P9)
-
 
 
 
