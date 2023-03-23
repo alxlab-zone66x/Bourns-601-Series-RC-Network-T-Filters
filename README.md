@@ -53,13 +53,35 @@ If the part number your looking for isn't listed, please refer to the [datasheet
 
 The release includes the manufacturing files for JLCPCB specifically for a 8 column and 3 row panel. The pick and place file includes all the components already placed for the panel. I recommend a PCB thickness of 1mm or less if you do panelization to make the PCBs easier to separate.
 
-When you place an order with JLCPCB the `Delivery Format` should be `Panel by Customer` . The `Panel Format` should be `Column: 8` and `Row: 3`.
+When you place an order with JLCPCB the `Delivery Format` should be `Panel by Customer` . The `Panel Format` should be `Column: 8` and `Row: 3`. The PCB Thickness should be 1mm.
+
+<img src="docs/jlcpcb_01_pcb-specs.png" alt="" style="width: 60%;" />
+
+
+
+The PCB preview should look like this:
+
+
+
+<img src="docs/jlcpcb_02_pcb-preview.png" alt="" style="width: 60%;" />
 
 For the `Bill of Materials`  part of the order where you upload the BOM and Pick and Place files there is an option at the bottom called `File provided as`. You should select `Complete File, just proceed with my own files ` since the pick and place file has all the component placements for the panel.
 
-If you had selected everything properly you should get a total of 1930 resistors and 960 capacitors for a minimum order of 5 panels. The preview should also show all the components in the right spots. Ignore the fact that the cuts in between the individual PCBs of the panel don't show up in the component placement preview. This is normal when doing the panelization with EasyEDA.
+<img src="docs/jlcpcb_03_bom-settings.png" alt="" style="width: 100%;" />
 
-If you need to the gerber files, BOM or component pick & place in a different format then you would have to generate them yourself.
+If you had selected everything properly you should get a total of 1930 resistors and 960 capacitors for a minimum order of 5 panels. 
+
+<img src="docs/jlcpcb_04_part-quantities.png" alt="" style="width: 100%;" />
+
+
+
+The assembly preview should also show all the components in the right spots. Ignore the fact that the cuts in between the individual PCBs of the panel don't show up in the component placement preview. This is normal when doing the panelization with EasyEDA.
+
+<img src="docs/jlcpcb_05_component-placement-preview.png" alt="" style="width: 100%;" />
+
+
+
+**Note:** If you need the gerber files, BOM or component pick & place in a different format then you would have to generate them yourself.
 
 
 
