@@ -69,7 +69,7 @@ For the `Bill of Materials`  part of the order where you upload the BOM and Pick
 
 <img src="docs/jlcpcb_03_bom-settings.png" alt="" style="width: 100%;" />
 
-If you had selected everything properly you should get a total of 1930 resistors and 960 capacitors for a minimum order of 5 panels. 
+If you had selected everything properly you should have a minimum of 1920 resistors and 960 capacitors for a minimum order of 5 panels. JLCPCB may add a few extra resistors or capacitors to the quantities.
 
 <img src="docs/jlcpcb_04_part-quantities.png" alt="" style="width: 100%;" />
 
